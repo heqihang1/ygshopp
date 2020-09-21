@@ -1,0 +1,11 @@
+.alicnColor{
+    color: red;
+    height: 0.533333rem;
+    border-left: 0.053333rem solid red;
+}
+.leftText{
+    height: 1.066667rem;
+    font-size: 0.426667rem;
+    text-align: center;
+    line-height: 1.066667rem;
+}

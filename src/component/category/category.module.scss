@@ -1,0 +1,46 @@
+.contBox {
+    padding-top: 2.533333rem;
+    display: flex;
+    .leftTitle {
+        width: 2.613333rem;
+        height: calc(100vh -  3.866667rem);
+        overflow-y: scroll;
+        padding-top:0.226667rem ;
+    }
+    .rightContent{
+        height: calc(100vh -  3.866667rem);
+        overflow-y: scroll;
+        padding-top:0.226667rem ;
+        width: 100%;
+        background-color: #ffffff;
+    }
+  
+}
+.title{
+    font-size: 0.426667rem;
+    text-align: center;
+    line-height: 0.533333rem;
+}
+.boxClss{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ImgBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 8px;
+    width: 2.346667rem;
+    height: 2.453333rem;
+    img{
+        width: 1.76rem;
+        height: 1.493333rem;
+    }
+    span{
+        width: 1.76rem;
+        text-align: center;
+        font-size: 0.373333rem;
+        color: #999;
+    }
+}

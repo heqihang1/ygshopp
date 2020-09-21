@@ -1,0 +1,114 @@
+.topTitle{
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.banner{
+    margin-top: 1.2rem;
+     height: 7.36rem !important;
+     
+        ul{
+            height: 7.36rem !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        touch-action: pan-x;
+    .bannerImg{
+        width: 7.36rem !important;
+        height: 7.36rem !important;
+        overflow: hidden;
+        img{
+            height: 7.36rem !important;
+            height: 7.36rem !important;
+        }
+    }
+}
+
+.priceNum{
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0.533333rem;
+    align-items: center;
+    .priceText{
+        color: red;
+        font-size: 0.533333rem;
+    }
+    .rightIcon{
+        display: flex;
+        width: 2.133333rem;
+        justify-content: space-between;
+       
+    }
+}
+.titleName{
+    font-size: 0.533333rem;
+    padding: 0rem 0.533333rem;
+    text-overflow: clip;
+    -webkit-line-clamp: 2;
+    height: 1.166667rem;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 0.466667rem;
+   
+}
+.footerNav{
+    position: fixed;
+    bottom: 0rem;
+    height: 1.333333rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0.533333rem;
+    .lxkf{
+        // width: 1.493333rem;
+        // flex: 1;
+        width: 1.866667rem;
+        display: flex;
+        align-items: center;
+        
+    }
+    .gwc{
+        // flex: 1;
+        // width: 2rem;
+        width: 1.6rem;
+        display: flex;
+        align-items: center;
+    }
+    .jrgwc{
+        // flex: 2;
+        width: 2.433333rem;
+        height: 0.8rem;
+        background-color: #f9ac1d;
+        color: #fff;
+        border-radius: 0.533333rem;
+        line-height: 0.8rem;
+    }
+    .ljgm{
+        // flex: 2;
+        width: 2.433333rem;
+        height: 0.8rem;
+        background-color: #fe0000;
+        color: #fff;
+        border-radius: 0.533333rem;
+        line-height: 0.8rem;
+    }
+}
+.bannerBoxImg{
+    ul{
+        li{
+            text-align: center;
+        }
+    }
+}
+.handleColor{
+    color: red !important;
+}
